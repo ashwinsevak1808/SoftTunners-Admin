@@ -1,0 +1,26 @@
+<!-- Connection Link is the main page with connnect all the link together -->
+{% include 'html/components/connection/link.html' %}
+<!-- Title of the Page -->
+{% block title %} <title>SoftHRLS || Main</title> {% endblock title %}
+
+<!-- Block Content has all the page level Components -->
+{% block content %}
+<main class="layout-wrapper">
+   {% include 'html/components/navbar.html' %}
+  
+   <div class="main-content">
+
+      <div class="page-content">
+        
+         <div class="container-fluid">
+         
+            {% include 'html/components/breadcrumb.html' %}
+            {% include 'html/components/modules/main/reports/analytics.html' %}
+         
+         </div>
+     
+      </div>
+  
+   </div>
+</main>
+{% endblock content %}

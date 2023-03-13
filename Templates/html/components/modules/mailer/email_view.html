@@ -1,0 +1,151 @@
+<div class="row">
+    <div class="col-lg-9">
+        <div class="card">
+            <div class="card-header">
+                <div class="row g-4 align-items-center">
+                    <div class="col-sm-auto">
+                        <div>
+                            <h4 class="card-title mb-0 flex-grow-1">Welcome Mail has been sent to</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="d-flex justify-content-sm-end">
+                            <div class="search-box ms-2">
+                                <input type="text" class="form-control" id="searchResultList"
+                                    placeholder="Search for user">
+                                <i class="ri-search-line search-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div id="recomended-jobs" class="table-card">
+                    <div role="complementary" class="gridjs gridjs-container" style="width: 100%;">
+                        <div class="gridjs-wrapper" style="height: auto;">
+                            <table role="grid" class="gridjs-table" style="height: auto;">
+                                <thead class="gridjs-thead">
+                                    <tr class="gridjs-tr">
+                                        <th data-column-id="position" class="gridjs-th gridjs-th-sort" tabindex="0"
+                                            style="width: 150px;">
+                                            <div class="gridjs-th-content">Name</div><button tabindex="-1"
+                                                aria-label="Sort column ascending" title="Sort column ascending"
+                                                class="gridjs-sort gridjs-sort-neutral"></button>
+                                        </th>
+                                        <th data-column-id="companyName" class="gridjs-th gridjs-th-sort" tabindex="0"
+                                            style="width: 250px;">
+                                            <div class="gridjs-th-content">Email ID</div><button tabindex="-1"
+                                                aria-label="Sort column ascending" title="Sort column ascending"
+                                                class="gridjs-sort gridjs-sort-neutral"></button>
+                                        </th>
+                                        <th data-column-id="location" class="gridjs-th gridjs-th-sort" tabindex="0"
+                                            style="width: 250px;">
+                                            <div class="gridjs-th-content">Sent Date</div><button tabindex="-1"
+                                                aria-label="Sort column ascending" title="Sort column ascending"
+                                                class="gridjs-sort gridjs-sort-neutral"></button>
+                                        </th>
+                                        <th data-column-id="salary" class="gridjs-th gridjs-th-sort" tabindex="0"
+                                            style="width: 250px;">
+                                            <div class="gridjs-th-content">Opened</div><button tabindex="-1"
+                                                aria-label="Sort column ascending" title="Sort column ascending"
+                                                class="gridjs-sort gridjs-sort-neutral"></button>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody class="gridjs-tbody">
+                                    <tr class="gridjs-tr">
+                                        <td data-column-id="name" class="gridjs-td">Ashwin Sevak</td>
+                                        <td data-column-id="email" class="gridjs-td">ashwinsevaK2091@gmail.com</td>
+                                        <td data-column-id="date" class="gridjs-td">18, August 2023 <span class="text-muted">18:28</span></td>
+                                        <td data-column-id="salary" class="gridjs-td">0</td> 
+                                    </tr>
+                                    
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="gridjs-footer">
+                            <div class="gridjs-pagination">
+                                <div role="status" aria-live="polite" class="gridjs-summary" title="Page 1 of 3">Showing
+                                    <b>1</b> to <b>6</b> of <b>14</b> results</div>
+                                <div class="gridjs-pages"><button tabindex="0" role="button" disabled=""
+                                        title="Previous" aria-label="Previous" class="">Previous</button><button
+                                        tabindex="0" role="button" class="gridjs-currentPage" title="Page 1"
+                                        aria-label="Page 1">1</button><button tabindex="0" role="button" class=""
+                                        title="Page 2" aria-label="Page 2">2</button><button tabindex="0" role="button"
+                                        class="" title="Page 3" aria-label="Page 3">3</button><button tabindex="0"
+                                        role="button" title="Next" aria-label="Next" class="">Next</button></div>
+                            </div>
+                        </div>
+                        <div id="gridjs-temp" class="gridjs-temp"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-3"></div>
+
+    <div class="col-lg-9">
+        <div class="card">
+            <div class="card-header">
+                <div class="d-sm-flex align-items-center">
+                    <h5 class="card-title flex-grow-1 mb-0">Track Emailer Status</h5>
+                    
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="profile-timeline">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item border-0">
+                            <div class="accordion-header" id="headingOne">
+                                <a class="accordion-button p-2 shadow-none" data-bs-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <div class="d-flex align-items-center">
+                                        <div class="flex-shrink-0 avatar-xs">
+                                            <div class="avatar-title bg-success rounded-circle">
+                                                <i class="ri-shopping-bag-line"></i>
+                                            </div>
+                                        </div>
+                                        <div class="flex-grow-1 ms-3">
+                                            <h6 class="fs-15 mb-0 fw-semibold">Email Sent - <span class="fw-normal">Wed, 15 Dec 2021</span></h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body ms-2 ps-5 pt-0">
+                                    <h6 class="mb-1">Your email has been sent to.</h6>
+                                    <p class="text-muted">200/240 Subscribers</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0">
+                            <div class="accordion-header" id="headingTwo">
+                                <a class="accordion-button p-2 shadow-none" data-bs-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <div class="d-flex align-items-center">
+                                        <div class="flex-shrink-0 avatar-xs">
+                                            <div class="avatar-title bg-success rounded-circle">
+                                                <i class="mdi mdi-gift-outline"></i>
+                                            </div>
+                                        </div>
+                                        <div class="flex-grow-1 ms-3">
+                                            <h6 class="fs-15 mb-1 fw-semibold">Successfuly Opened </h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body ms-2 ps-5 pt-0">
+                                    <h6 class="mb-1">The <a href="javascript:void(0)">Welcome Mailer</a> is opened by...</h6>
+                                    <p class="text-muted mb-0">18/200</p>
+                                </div>
+                            </div>
+                        </div>
+                     
+                    </div>
+                    <!--end accordion-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
